@@ -1,0 +1,25 @@
+/* DESKTOP-FIRST RESPONSIVE DESIGN */
+h1 {
+    font-size: 60px;
+    color: crimson;
+}
+img {
+    width: 1000px;
+    margin: 50px;
+}
+@media screen and (max-width: 1096px) {
+    h1 {
+        font-size: 40px;
+    }
+    img {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 620px) {
+    h1 {
+        font-size: 20px;
+    }
+    img {
+        width: 200px;
+    }
+}
